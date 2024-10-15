@@ -1,0 +1,139 @@
+:root {
+    --azul: #003DA5;
+    --negro: #000000;
+    --grisOscuro: #1E1E1E;
+    --grisClaro: #F5F5F5;
+    --blanco: #FFFFFF;
+    --rojo: #D50032;
+    --amarillo: #F2B807;
+}
+
+.contenido{
+    min-height: auto;
+}
+
+.desarrollador{
+    padding: 80px 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.desarrollador h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--blanco);
+}
+
+.desarrollador h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--amarillo);
+}
+
+.desarrollador img {
+    border: 4px solid var(--blanco);
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.social {
+    height: 400px;
+    width: 100%;
+    background: var(--grisClaro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--negro);
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: var(--negro);
+    font-size: 80px;
+    transition: .5s ease-in;
+}
+
+.social ul li a:hover{
+    color: var(--azul);
+    transition-duration: .5s;
+}
+
+/* Tablets y phablets */
+@media only screen and (max-width: 767px){
+    .contenido{
+        min-height: auto;
+    }
+
+    .desarrollador h3 {
+        font-size: 28px;
+    }
+    
+    .desarrollador h4 {
+        font-size: 22px;
+    }
+
+    .desarrollador img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .social h3 {
+        font-size: 28px;
+    }
+
+    .social ul li a {
+        font-size: 60px;
+    }
+
+    .social {
+        height: 200px;
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .desarrollador h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .desarrollador h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .social h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .social ul {
+        gap: 30px;
+    }
+
+    .social ul li a {
+        font-size: 40px;
+    }
+}

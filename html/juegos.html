@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/juegos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Sony Fans</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">SONY FANS</h1>
+    </header>
+    
+    <nav class="navegacion">
+        <img src="../assets/LogoPlay.png" alt="Logo de PlayStation">
+
+        <label class="labe_hamburguesa" for="menu_hamburguesa">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="list_icon"
+                viewBox="0 0 16 16"
+            >
+                <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+            </svg>
+        </label>
+
+        <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+
+        <ul class="ul_links">
+            <li class="li_links"><a href="./index.html" class="link">Inicio</a></li>
+            <li class="li_links"><a href="./playstation.html" class="link">PlayStation</a></li>
+            <li class="li_links"><a href="./juegos.html" class="link">Juegos</a></li>
+            <li class="li_links"><a href="./about.html" class="link">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="cuerpo">
+        <section class="juegos">
+            <h3>Juegos disponibles en PlayStation</h3>
+            <ul class="biblioteca">
+                <li>
+                    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/07/portada-sencilla-ea-fc-25-3747994.jpg?tf=1200x1200" alt="Juegos de Play">
+                    <h4>FC25</h4>
+                </li>
+                <li>
+                    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/06/marvels-spider-man-2-3054076.jpg?tf=1200x1200" alt="Juegos de Play">
+                    <h4>Spider-Man 2</h4>
+                </li>
+                <li>
+                    <img src="https://i.3djuegos.com/juegos/18987/mortal_kombat_12/fotos/ficha/mortal_kombat_12-5837979.jpg" alt="Juegos de Play">
+                    <h4>Mortal Kombat 1</h4>
+                </li>
+                <li>
+                    <img src="https://cineytele.com/play/wp-content/uploads/2022/11/KYIGZ47NUNAPDLCIAQPQIUDWS4.jpeg" alt="Juegos de Play">
+                    <h4>God of War: Ragnarok</h4>
+                </li>
+                <li>
+                    <img src="https://blizzstoreperu.com/cdn/shop/files/dragon-ball-2880x1800-17419.png?v=1720407631" alt="Juegos de Play">
+                    <h4>Dragon Ball Sparking Zero</h4>
+                </li>
+                <li>
+                    <img src="https://i.3djuegos.com/juegos/18541/resident_evil_4_remake/fotos/ficha/resident_evil_4_remake-5789986.webp" alt="Juegos de Play">
+                    <h4>Resident Evil 4: Remake</h4>
+                </li>
+                <li>
+                    <img src="https://thesamstore.com/wp-content/uploads/2024/02/elden-ring-shadow-of-the-erdtree-pc-steam-venezuela-sams-store.jpg" alt="Juegos de Play">
+                    <h4>Elden Ring: Shadow of the Erdtree</h4>
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Silent_Hill_2_remake_cover.jpg/220px-Silent_Hill_2_remake_cover.jpg" alt="Juegos de Play">
+                    <h4>Silent Hill 2</h4>
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/originals/ce/a8/45/cea845fcefa51de582dec9e08b52d66c.jpg" alt="Juegos de Play">
+                    <h4>Tekken 8</h4>
+                </li>
+                <li>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExMVFhUXGBcYGBgXGBcYGBgYGBcXFhgXFRgYHSggGB0lHRgVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lICUrLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQQAwgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABDEAACAQIEBAQDBQUFBwUBAAABAhEAAwQSITEFQVFhBhMicYGRoTJCUrHBBxQj0fAVYnKS4TOCorKz0vFDU3OT4hb/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQBBQAG/8QALhEAAgIBBAEDAgMJAAAAAAAAAAECEQMEEiExQRMiUWFxFCMyBTOBkaGxweHw/9oADAMBAAIRAxEAPwDyLLTgtOFdihZakQlKWSpTTgtZZqjZAEruSpwtdRNa2zdhGlunFdKt5ABVd1rNwbx7SCuZaky04CtAUbI1WkVqeKWWssZsIVWpVXrT/TTGNEZSQ9bNRPbgzXQ9OV53okDKmNGtcYU8qNxSrWwKElOAp2WmMaCxu2hlymKtdJmpFFagGMZa5T2ptGCcpUqVZRtnFqdEqACprbUto2ElZJ5QrhWkp1qRnoaHqSIgtSW7U10a1LbMCsDjFWduW6ga3V63cDLEajaomWKyx7xqRQKVxlq68LUBWtTEyxqJCKe40rka099q0HwVia4WpzimgU1EsrsQp+Skq1Khr1hKI5LWlOFuprZ5V1hQNj1jREKhuCp2FR5axGSICtPUVKluZgExqY1j3ruWmxQlogIrjCp3XSoiKOrAZFSrtdoqAEUpyirOIsFTB3rhWlODFQyxZCxpB53p7LOlRtbihoc5Ms27ek1YtHSKr4d6n/eeUAUDTKsU0kRHQ05mJqR7qncVGDFZVjd9dPggdCa4turK3KmVAdazoJJT5TKty3TBaJq04pLtWWG4JsHMlJbVERhWbXLA6nQfM0Tw3B7RUlrjFhGiABRrrmLb89umxo1ZJN44dsC4bDqRLZyCwWLYDGTzM8qiuJlYrIMMRI2MGJHvWuHCMMpVsryFKmLjAuG3LwQE+fuKktphcAi3CuuZQIc/N7n2jH4Ugd6Ik9epP4MnYMnQTU11Cq5jESRuNxEg+01BxTxPJcWlUB80wCBJYENrJY6cz97TpQtMNdusFuMVzsSFY5ZLHcL0nma9QUtXLqIYwLK9xVkNLssDfRZDHXYmi3FFs2rk5QFCTlIDTl3I2EkxvMRtWSt3iHFq2okSrHT1FZkz0mr+IstdbNdYnsD89aJIUvUyeS/juOqyi3an1/a1JMNEiTsN6pxUtu0ANAB7V3JTYxKIQ2orstRslXQlRvZqiON0ZJopZKVWclKt9Ni9wUdFeDOvyqG9gzE8qfYtQoYnfT2Per1uyzqeojQ8x2pW9NHGxvZIBC3BrpirrgNvVe5bQBZzks+QBQu8SDLMB1+VTPs68MiaICo5VwWu9S+UsMx8wBVYkFVzShhhGaNtd6c9tF8wlnhFDaKJMwG3aBEj3rA1NeSA11atvh1CyCxlUcekQc50GjEzv8qYbCGVkyoQtoAvrEgAzJ+QrA3lilZAt1QYHqPQa0SwqgkhiEP95kX8zVe3ZtIzgM38MqPUFCkMC0iDp6ROtWcVxexfCYdVJJI/jD7h5QNM0mBrprWbbF/i8i/TwMxtsKCxW4U/GoRl+BD0Lu8SUCEHxME/yX61ZS9bKsTbZmdX8tmVAoKKzMNHJWQPjVVsKuXWQ+RbhUD0gM2UAHNM6g17agJ6nLLtkN7i9yQV0gggn1HTXnoPhVVuKXoceYQHMmNOug6DWia4C0SVz3JFvzPsLBETAlt/fpVe9gLYL+q4QgTZQWLP92M0adjRE/JBb4/fAuAtmNyAS2sAGYUbCqhN2+/3rjfOP0FG+AcBtYkswa5lSCwYKkgzHqBMDSil/HWrC3beHQqyubewGZgQDGpO06ntXglyAmtLgwMwV752WNLY5MT95uwj3qOzg7jsLtxiGmerE7yTRM4MeaWcs10nLOUeWrhfMNtTMkwd4iateWmVzLnIiuYVdQZEL6uUH+jWWU4scK3TKOFwqpMDU7k7mpYqxeyIHY5iEAMACTqAdzGhNPxNpFJnP6Sg2XdzA+9yOlMi0USlCPBXArtPKA/Zn7TKZjdTGkE964bUVVCLfKA9RVwR5aegq3h8KZGlXcNgAzAb1bijXZJmyJAjIOlKtl+4gaZDpp9k/wAqVN3Ik/EIxVrFmI+NWrGOB332oOrVLbPQ1wkwXBWEmC8jvzpuKtIPIlgqm+uZmMBRkMknlUdpxFSONbEqHH7wsqwkEZDII9przfAzHwyfiq28tw25g4d2jXQlFMa77TPeqeItFlxAG5twPcvbAqW8f4d0KZAsMJ6wgHPXlUpJDXG5wh+Vy0aCiuLtP7FXEtkwyPp6bFsEd1uXUg+5AHtSIK3sSG/Dag9ckIfqa4MO1y5irRHp8xcoH4bly44j/NU2IbzLh1ElMQDG+mLkSOWgHwrRRVxtgM98EypfDjmN7LH9DV7hPB0DhycqB1y9T6hEdq7hcPN3E5vsp5LkbTlsNoD3mpsOLC3QWzFvNGUO/MEDRU/WvGM74dw6XcKFt/xL6h2yqCxXS5bUNyWSzHXkKGY9CMTcBERh1Ujb1J5TEdtxR3wXxGzg8O2Ju5V9DIVAGe42cuoHUxmknYRQziN1rl13JXO5xAYDf/Y4cbchKGK8YyrYtE30bYNhHWf7wsXHA/4an4K6LinDbsUyCCZOVhp0glTr0qHiOcYYlYlRYYdYKXbTfD1im4V3GOXKQNZ5f+3B+EE16j1k9jFIlnDDN63WypUSDozwTpB+19Kgw9n/AG7Eeo32IPZg2v0qxwLDKTh3IlgiRPICToKbg7kj7Sn+Fh2MH7xDyD3oJPhl2HE45IX5LKqua4PVKXkvqI+2lyyUBnkA2hOu4HWIrjhPKQ73R5Yjql5HM/7rRUuOugG2Vkm1e/d3J+8l5czQBsqmCJ1kzpTLieuwd8t25Hv5Wb81HyrQnGLhJR+SF1Li7/eS8fjkdh9Yq9j7YIf/AB4T6+QT/wA1Q4QeodSCPmpX9ar4PEs+Gzt9o3bQ/wAj4dB/y0a5B1SqX8C5h1EN/wDLe/6hqa1bBaDVfC3D6tP/AFLv/UNWwa7GminjRHOXASw3Dy5yoRPKdAe09aJ8GwoBIO8Egnr3pvhy5mZF07nsNt60eMw9trLZkUMQR6RqDyjlTJSr2nMyzbfZmnwN0knzSZMzNKu/2XcGgcfFwD8RSr236idx5ybRpLbIowFBJ20Hz9qq3LdcV42uS2OVNlVTRXh9sFAS0EXJ2YwAsTIEfe27UOIip7dwxGkanVVbeJjMDGw+VDdFEY2WcJh5DgyP4bASrak6RoNOvwqzZs+q5J3VYlW1OZSRtpEGqluTyX/Jb/7anFhidk/+u3/20p5KLMeCUuvIW4NglN92mQcnJhLW9eYHKKkscCIa0zBF9N0OZGrO+Zdt6BDFLh79s4i3baw0Bv4Vv0xrmHp15SOYmjPHPBl9rpu4U22s3AGUBbKhZOy+nVYgz3pkZWrEZcWyVMi4hgTbfEKGtAXWtSWcAhUGvpEnX8qX9kYYXFa21xgrZixQqCS2YQIzH6b0JxfCsRhnVbyjWdMtsgAgwylBDQQBGu+tEsDw/SXyMBH/AKdsEzOpJXStbFqP3B+L4IjGxbk6B50OVQzSDtuQTP8Ahorf4eDOWAS10zlMgMDE6a+3arS4BEEG3bMkwTbt6gRt6YjWgmNxCW2IKW41IAt2ZGoGhy671tgODfyTYmxFoKSCTbCD0vq0Mx+7oAQBNDsNZK4gFs03HHqyNCWU9QG0guRAHTU71ft2izm+yIluQqW1t24MaFzK6+3OKq2LRlspzemYe3a9Jkx9lecT2oJTpFem0sssqiXbWHCugGiqh2VjqAwA25yNaa/DUVfSRPl2xoraspOm3Q79qroy+nLlM/it2fwydl0MxvvTSwifRmBAI8uzG8GAFmO9L3dou9F+yXxwv98Fm5h8xJy6G4t07zKrBUCNZMa7RXbeFMJO+dyZVtAbeQHbWSTp2qFR6ssLJO3l2oyxM/Zmaa5AnRcwMR5dnLOaIHpnbWe1GpAfh9qa+X/bn46LgwwRrbAEwQTvsIMkRod9Ndq5ZwCqpTlKkaHcXMx5dAKrXIBhl15AW7MHWBEr7bwNabdlQfSmaAQPLtAH7W5I0MDaedNjOl0Ly4ZTfP2/mXhg4nuznnzaR+dT2sATtTeGAnMFjKDA9Kr76IAP/FHuHYczJ1ro4clQRz86cFQ3hg/d3VzuNh3o5dsuyF7jZVYEzAJ7QBVV+Foxz54Xvv8ACrGOVroABhANIHSmuSdHHbcm7AR4go0AkDYkb0qIDhX9RSot8fk9tXwYMKp23pl21JPKoVp968Lal+m3vXFeRvg6EcaXJEiqSRzBgjpVi1h40pnhwZkcsdWedeego1+5RSZyopx9keFwYOsCrzYWI0imYPDHNRprBYZY1G3Q1FPJydvSqlYA4hwwXbZRtj03B5EUC4H4oxPCn8i8vm2JlQSRA62mO3dTpWzNllMMIpuK4al1StxVZTyP5g7g1uPUbPsV6nRrPG1wwR4q8WcPxSpdTMbqqQJlCJGzD70djFZXD+IgNzHtm195onxX9n2pOHuiPw3J+jD9RQoeBcZ+G375x+oqpZscl2ch6XPjf6f8lq/4sZhCAtAgToB8SdKqWcWrOHua/wB0TBPTv7CiGC8A3zrcuW7Y7SxP0AFaLhfhy1Y9S6t+NtW+HIfCglqMcenZVh/Z+ozv3Lav+8Eao1xQbkqBGVFgR0J0I+HKoDgQPxagjlz0OwoyyzXDZqaWWUuT6HDo8WGKjFAdMIJmT1j08tpgCYpwwC9/bT84k/Oixw+tS2sHNYsjCeHH8ApcAC2bXeeQE7dJ+tOucGHMtrOnp5+661ok4WrrkdQwPI/nWc47wy5hRmt3G8snaT6ek8o71bgkpKmcrWPY7S4JP7LVomRAA3Gw6yN6tLwNLpls0QBoRy25TzoLhOO3E0YK476H6UZ4P4qtB/4qMo6r6gPcaH5TVO05ctQn0FMFwVbc5SdTJn/QAUdwPDz03qXh+Mw1+DadGPQGG06qdaMWsGx30FNhJ1RzNQ+b7KrcNtnfWnjh4CkqulPewqak1mfE/FcTabNbYiyQAVgFQ35iffrTufk5926a5Dfmt+FaVYsceb8A+ZpUz2ifTy/H9THWwpAMxO06HQTt7UCx2KZyeQnQdqlv4gtBPIQANNKpvrUCSRfGzU+FriNbyAHMmrdPUTt8q0OHvqwMQQCVPYjce9A/AmD0uuecKPhqfzFajhvAgvnM7lA1zMvpOs21mOuo5d6kyLdJpdlMJbab6K9u13olhnimjAGAyMrr1HXmCORqbD4YnlrXMzd0zuadx28EigNvT3sCNKcuFbpUq4ciJNT7i1SBZtmYqZLdX/3XmKlTCdqJ5BymgcbJb0x8aZewJXpRcYeKeMPm0NDvDWajOXLUaQKVu0ZmQIonisKNgPjVcekERTVMpWS1wVbdupcoWnK9T2rGbka9v5MnOhYZmYxVx8Mux1nrt8qmtW8oiIq1atA0+M/qc/NNMxfGfCAYF8PodzbOx/wE7e21Y65h2U5SCCNwRBBHIjlXsrMM0LtzP8q8446bFq41u4Hz+ddI8sKWZHysJn8JzfOr9Lqt7ce6OLqsSi93yA0Tnt/XKj3CvGGLsQoulkGyOMw+B+0PnVG9hln0MWXTUqUO3NW1FVbtir0yCSs3nD/HSM48+0Qv4kOeD3WJitj5Vq+mYFXtuumXYqR1rw9AQaL8I8Q38MCLb+kmSrDMO8A7TziitkssMV0bJvASSYxFwDkMimB0mdaVVF/aRprhln/G38qVe3MzZI8fJqzw/AXLzi3aRnc7Kok+/QDuapTRzw74gbDC4igRcy5j96BOk9NSYpEnSGxVuic8be0owuGtt5in+IzASG+9lGwE8zyre4zzlwtlLmVWRUUuZaXOYvtHLT41mbOLsNGVBmJ19M5j3IMmgXi3GeXcy2HdQ9sNcAdoJYnQyew+lITt0uB7glz2je+HbVy0LwLDK2UKkgnMcrk9gAR86Jid9q8h4P4nxFnNlKsxEBnXMyiQTl1A1gbzsK9B8DeImxlxrNxQXMsrLoAoGxX4aR3qHU6eauRZhzRXCNjg7ywA4Pwq7dtoADnEHbSa7b4UelRXsERyrnPgsjNN9kDOpMSfl+lW8MqtoINVRYq3h7GVgwoLQ+TVdlpsKDyqJsCN5oipB12qviJO1ecREckroG4rCg6DSqL8MBB2oubDGmvhGrFu8FMczjxYETAAHWKI2LCqJNWrPDTzFX7fDpEHai2yMy6leWBLjzyri4Yt19q0qYJByp/loKzZkl0TvVrwgDYw0ew3J0gdydq8ou2LI4hiM5zZWf1A6Q0EZTPLXXvWi8a+O7q3r1nDhBbtSjMyhmLTkYwdAs6bd68p4liVdyyrkndVmNgCR76n4119HpJQi7fLIsuo3STaPYuGYHD421lW+pxEkIM+Y+lZCx+GNe2p7VmMdgWtsUdSGUwQaw/C84dfKYi4NVKtlI9j/W9eheG2xGMt3LV4O12yme1cMEsoPrtOfvaQVO+4q/GtnFk8pOXNAZ061FFEbuGO9Vxa5VShLKcUqt+T7Uq0Exgrq120KlCUoXZew106QYPXpQ/jVxnc3mIm5MxoA0wQBy1FWV02qPiCBUEtJLOwHIA5de+ub5VkV2Ynygfwu0GuqG2EkjrlEx8Yr1vh2KSzw1ERR5l9nLOoCkKCPSSNTM7dDWC8BvaXGI137IS6wnbMLbMsx3FaLB4hfKCB1JUyFnWGGuk/3VqTPbZ0Ma9rPcMHczW0bqin5qDUrKDvQnwzeD4SyR+AD4r6SPpV6xfDgMpBB2I2PKoJyS4aCSGtgxNWEsgDaurPSuvpUyUE7oZub4sabY6UiFAmkWEb0PxVozImPj9a3hK0g4Lc6bLhvr0qRGB5VieC40Pi7n8fOmViozShAKwU5DetYb/Sjbcew5464ReVgK7noa908q6tw86B5LA9IvsagVg2xBHau29dxQTw/jwDcstAIdio7FjIHsfzpsFaBrwZ39qXD7Fq2bq2lF24GzNtmCDTMNifVvvpXhTgkk17T+1FzccoNYtaD5sx+Q+leNldJ/SulpnaYvNGlE1v7K+CriuIItyMiBrjKfvBQBl+JI+Veg8fwP7hfU2buhlgD9q3EbnY76V5h4N49cwmJS9atC4/qUJJ9edcsCATMwdBXpfCeF41z+9cQAYsQUQx6dzluKNANoG/XWnZMe/oRjybG93RRxb+afMyhc2pA2JO5A5TvHehuIQLLGjOItZSaCcZOw6zNULhCW7ZUN3saVUCTSrbMM1ZFSCmWelSCgED7XSKp8dxJz+WD6VgR/e51fwzwZ6SfkJrPYhpY9a3qIUFc/sPsXvUM21HPDhUXCZn06TvOk+3PWs4taTwy0vB2K/rp+tTz6LodnpPDfELJhGw66EkgMOSNq3uTqPY1v8AgSsLNq2BqqLPUTqJryrBprtXoPBeLBUv3rmwyRqOWYIgnfpXMyxT4LNnttGmYXAOfzpihp5zU3AeLDE2hcCkHYg8jAOh5jWr4QbwJoHpr6Yl5HF00VbNpyNSPpWS/aXjXs4UR6VZ8jQxkyDAEctCfhW7rA/tcuZrFqztnfMT2QafUj5VT6SglybgblkSo8xwvFlwzCNYNsBpzRbMlsgHMaV7H4WuDEWjcDKyloGXlGh1/TlXhi2lF62TqoZZ7wRp8a9c/ZjYaxcxmDMxbuLcSfwXAYjtCqfia2dSW1lOoTSbNcuAA3NQsqg6amikGmkDqs/WppadeCNZX5KxIAjnWE4zhzavMW9IY5lPv/rXoi2wKyfj64CgtlRP2w094YR30p2HG4s1Svg8s8T8duB8YGysBZS0pM5h52VZBnkM+veK84mtb4twdwNdua+WwtayIkErBG/ese1XwpLgDI23yF/D2L8rEWbn4Ltp5/wXFb8gR8a+kPEnE1t243a4Dk+EGfqK+X7Zg16tY8SPicJhlYD+EpQtuzEQsnpoBp1pqJpR5LmIxhJkxQbiRJaDy/o1JcukaioSARvRmUUctKrflp1Py/1pV4yjHWgI702phZqQJpH9fKhbsUola62W2zc9FA6nf6RNBGFH8ZhiygSJBnUgDUD61RtYSWA31rJPwNxLhsoNbg/L8q2WAtqtnDXAIJRg2m5S4RJ6mGHyrOnDExpsAK1OCsMcPhhB9Jvg9DmZGEfI0jKyvEjQcNYHb/yOscqtvdJ0B5n5RHz+186oYXCttFFcJgT0qCfZ18MTT+B75Vmtk/aiNYGgiPc1t0np+deeYLDspBGhBBB7it9wrEm5bBb7Q0b3617FFSlRLr8e1715JlVutY79ouENzywRMKTOvM7dK3AofxzDh7cd/wBKdlx7cbaZNpsuzKpM8MxfDypBg6R8xXonh4XMRfDlClrybauSINwrqBm3yzOnbvVTG8MFsZmEtrlU7f4m7duda7wgxOGUHUgtM+80nG3Lg6OrnFY90V9C/eVm5/KaHcR4cwAuof4i9Oa8x311ou19diYNDxfuLoSGHt+or0oxTt8nNg5eCv8A27NljoLqjQcm9v5VlvEGNW/6yCrwFI3UxsRzFFcRhIFZ/iSHkKKE22UelFcoxHjAHyQg5sWJ7IjMPnXnzJXrvG7C/uWIe4smFRABqrFgc89BBB94515hcwtWRZNNclIDatP4MxPqe2diMwHQjQx7gj5UD/dzU+Autbdbi6ZTPuOY+VNjIVKJv22jfeqzpBq3knUnUxEafE03yjrPzpiYllfL3pVa/d65W2YYXz6acR3rrZSNqrm17x7UpM1wZPjsUMoCghvvE8/hyqtgsQc41603iDGAJMe0UuH4QkFhy003E9ff9KyTV2HGLUaJ8Zijn07VpbSOli2wYnLdcsOQzKApHvB1rJ8RsspEjlRLh128lkqScjlSAdZCgmQeW407ClZKfI/FaNXhuKNp6jRnCcSfT1aVkOHWndgoUlidAKO8Nu8iO0/1zqSaR1MEzW4XiDaerStRwXicaHUGJPTvWFwYJOUfDlR/hjNmC5WO2wNI3NO0VZ8cJ4zeC7VfieKCLJ35UNtY0roPV35DsKg45au3FXKpI5wesUyeebg1XJxseBb1ufAB4vjcxJzA68p6dTRPwlxSLbqeTA/Mf6VmL1pzca3pmWZlhGg6/EVY4Tw27nKjIcwGzjfp776VPj3Lk6+bHi9PY39TVY7iozA9tfcVVu8ZAG9D7/Ar4APp17/maB4zh+KALeW0DcgSPhG9O2vyRqOKqiwpj+OkyAdKA3+KMx3oPiHcGDI7ER+dOsTToRAm66LfFOIKuGvG5cyZlyJpmYsxBhR3UMCeQavNmxRr0HjPCTiLOQQGkFSdpG4nvtXn2DwL3bwsDR2YpHcGCO0Qde1UxaJJ9lriWFuWIFwROqtyZTzFUFuH3r1DjfDhcttYYDRYUcwVGjT2ivKlsHzPL+yS2XXSDtrRxoW2bvhOPzWVkeqAJnpp+QotY4gYkWlPLY6dgaE2jkRQEtsVABEwBA5aE125+9t0VAPsiFgds0Gm2IaDOW8dfLP0/nSoGcNe/H/xf/ulWWeoz9vDEHcf10rt624A03nl3jrrWm8P+GLl422f0o1z1Ag5siglifwzpGvSh3jG+LeJZLYy5RkABkBYGh77k+9SrKpT2lUoOMLBFjD+ZIcGAM07CBvOk7VN4ftIvpc5dZkASZE8yOUCqd3EEJA1B1fU6wfSKarEmSdgJjsAKfKCkqJ45WnZpvHFi0UttbQgqQv3SWVlkuxBOsiI0EGinCcDhbq2c94BciAgKM0iVKkzoRoJ+POsa4NwQXPpGk++2tWQxF1YgxEwInQDlSnp/wAtc9DY6peo+OzfY+5ZsW3/AHawczZlLu4OVCADGpJmhnA8OCssyoQYjfT8X2h8qB2LV0AhiRII9U845H2qbCWQo9R58qneBpF2PPBvg9G4TgJgpiFHaJOnxo3byyys147bWyAZ6kDWsX4bxyIYMrzzEaexrf4XEEHeopNwfI7N9C4nDw4BzXAOkx9DQ7inD0WAXvbToelaTDOCJrJ+Nb2Vl0n0/rT8sEsSmu2S6aU55dlmRwD27WMcE3NNoJBOqn1VuMDj0aWRD8lBk/H614/j8Y3nuw5n9BW78FX2OHLHcuY+ApE7gkzpajHGavyE8Y17zmuC2TtE5dI/3t+9LifGby22D+XbLaKuY5yDpMrtrPyq0HaYoH4j4Wt8jMPUNAZIga6ae9DHM26YmOGMmlwZezxFnzC2LAnTKQzlucrJEkamqOfySSVW5pC/7VIPUiTPWDRnCeEURpZiYII9RAnQjY+x+FN4/wADHmIBlzH1hyzQZ56nrVWLIrrwFlhDb9Qfhcc+o0aI9UQB8TpWXssqcQLIjPlz5cpls0asCfc/OtPjODXchS6GTMAQdpAO2o/qKdwDwJd83zUlguhUzJRhupOnXvpVqlFKzlSTb4KdnFXGcF7ZFtfuyQYgwGbffU7aUK4mi2sVbvOnpZmfXUEnR8uw9JKNE863XG8OA5thcqoPtSTJjUheQDT9aynijBm5bCqpY5swgEhRlAb2JIB/3RRxVpMW5c0RcS8TCctpFiPtHf4dOdCn4m55iO2kVJwtbiGXtLcCiAHAQyBuIgmriY24SQuH1I5n0x8hRbTNwKOY6xSomcPiDrntDtpp22pVtGWQnxhiJXOyEhQJWZI6HXQ9aF4u75reZ5gzOSxUAysk6MTz+JNCbDKCM208jr86kt3MzZjOpnfWO+mpoYY4xdpB5JSkqsvphyQVBmfYd+Zp+HsRMgEnry76Ghlx4POP0q3groDEpOUEEZoJ+PI0/hsjlFpdli40GAB0qwL7ZyQVE9AKCXbhLHckmTOuporhsM7RAPMnsO5O3OkylQ+GO0EFuMx1Yn4n9KJ4TA5huwPY/wA6h/sxkC5iPWoZYMyDI5exo1gcOIj6xU+XMkuCvDglaJOG8IOYFrrEdNBPxGtbbAXMoCjQDrQPh2CYrIUsF1OgPx0oxhbB+3rHcx8pNcjLLczq0tvJs+EPKUB8Vi2zjO+Ubdz7UY4IuVOevXWsX4/vXPU6TlTc8hPTU1TNt4YxRz8C/PbM5xDhdnzJW6YLeqF2XbmdTW54HZw9vD21UkjUy2hJJ1MV5Ncx5d0VWIBjMWH3jvGUEx03Nb/CkqttQdlnmY16kDtypOXfBKy/asvCbNfdxKk7GQOcDTrHOheGup5pzjTkep+dDmxDkyWOlRXNTM/Wlqbbs9DSbU1ZpEvW9ROnfWqmMs2QFBJhfsxuD7j8qD27pHP60H4zjBPqaFG8n9BTISbdAvSVzfAbuXLdwstxiyjZY03BknmxO/vVnjeMuow8khF00VZM9dNNtKyuCxP7wrCywJGuWQp/ysQadw7xEbN2LgkzGpOnLnTpxfFMmcYp2Gb+BgzcY5jEzObXsBpQTiuFlx5ZViIgmREz6SOex+VFOK8Xt3fV6lZtPToFykbnpttVfE4W356c1uGGgA6KAOQM76T1qpTvhsnqukZ9OB4gkqXGp2VlB1/vbqKWI4UVaGS+vSWEGNNxoeWtPu4tlZ1SQVJUR0zRuToYP0NLEcTvnKXk5Tswke0AwTVCTrgS5cj/AOze3/Cf50qcOIr/AO3cHxX+dKh9wVx+DyQjqTU1uBzrpwk65vpXUwcayD0/qaooR6iGOsnWrOBiGimfuoPM/StZ4Z4RYdDmZ9PtGAqJ0zMzCfhS8mTZyHCEcnBnsPwy4Yfy7mU88pg6xvR3C4FgRIIIg8+RiR1it1Z4ngbSoS9x0UhRaQE5mEwzAH1DeKMDy8QFxFtHtIoyiVIgayUU7HXfWufPUzfLRfDHCLpAzC4jD+QHxTqckp6pLjUQZjSSSY13ihdrE4Z7i27LMQfvMrKCdTCxrA03rVYDhmHF0uAzEnMxcA76wAfziqmKfB4e8bqq1s5vuAxJ3hRoJ51Pvj1zZRDdftL3DUuWlUQvqLEZmEt0C8p7VF/btm3d8q4rEjkCCFJ1IkCI2obxfxmWa2lrCO0NOZwVEEa5cuo+JqHhmHvPeN28lkJy9JDj2Ktr8axxjHmRijOd7kbhfElkLudNwBP151n+K8cW7OUFAA2rRlMgjUGJpwyqZUCDqfTOvw3od4n45h7NoILTu7DcBlSe87+wpayznSSM9CGN3TMKcPZtgks7OD6VUDLy+02/yogniHEG4GWwq2wIOYsAO+cmB8qHYPiF3zlJs+h+bLAy7SGOsDrR3FcMF9ct25cMNKTplEcsw19zVuRxS/M5DxKcpewI4/jiWgue5bEgEhWNzfkMgj4kimXfFOFzlSbnvA300yrP0oR//MWNQA5nf1GPoYq1hMClmMlsT1A1+Zk0hehVRRS8OfuTDNm9mEkFddAenXl+VBeMWxdcW21Xf47TNWTdmdYAEjNoT27mqN276we1ejCpWhrft2yO2eG2rYJgkgSCdSD25Vmrt4tcJLE67mJo9jMV6G9qw9zGNmOsa1VjTa5Obq0otbTZYbFgHUTII2G551afHqGBV8uoH051irWLO8k1YHENtTTaRC20aW3hBrcN0AHQtMka8hy3otg8JnEC+uRY0YFCT/iAMkmKy9m6zAKNSdd9PfSobuPePtgDTv8AnVFbeBF2FLuCgkFUmTszH65daVCxirp1nf8Au0q8aZs3I0AGv9aU+3rSpUwmJbSyaltYt8wXMcpb7MkDboPc0qVJyFWHoJMoGgAGvc7f4pq4rkG2FLAHcBmA130mKVKpey1G98OaQANNOv61V4viCt2BGrGeu9KlXN7mzqQ4Tr4C2Gw4IaZOm8/CaO8DsowZSoOVmUbzAPvrXaVVaeKb5RytRklu7HcYwSBAwkHoNjrXn3iayGSdtY0/1pUqyUIqXCKNJOTVNmP4daBck6xG/vWs4bcJBnltSpUeo6K9L+8LTXiDAArlm5mMGPgIpUqjijoTJr6AD+dCbwEn0ilSqrESZAXi/ssO1YjEiHPvSpVdHo5Gp7OhjR/gWFRrdx2UMV2nbbtSpVvkm8D3vkMQoCwBtv0qHF2lWGiSZ39uUV2lTfAvyRC4aVKlWBH/2Q==" alt="Juegos de Play">
+                    <h4>Final Fantasy VII Rebirth</h4>
+                </li>
+                <li>
+                    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/06/call-of-duty-black-ops-6-tag-page-cover-art.jpg" alt="Juegos de Play">
+                    <h4>Call of Duty: Black Ops 6</h4>
+                </li>
+                <li>
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/2222/l8QTN7ThQK3lRBHhB3nX1s7h.png" alt="Juegos de Play">
+                    <h4>Jedi Survivor</h4>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="f_superior">
+            <img src="../assets/playstation.png" alt="Logo de PlayStation">
+            <h2>PlayStation Fans</h2>
+        </div>
+        <div class="f_inferior">
+            <h6>© 2024 PlayStation Sony Fans.</h6>
+            <p>Todos los contenidos,  títulos de juegos, nombres y/o imágenes comerciales, marcas comerciales, arte e imágenes asociadas son marcas comerciales y/o material con  derechos de autor de sus propietarios respectivos.Todos los derechos  reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
