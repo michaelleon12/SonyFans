@@ -1,0 +1,166 @@
+:root {
+    --azul: #003DA5;
+    --negro: #000000;
+    --grisOscuro: #1E1E1E;
+    --grisClaro: #F5F5F5;
+    --blanco: #FFFFFF;
+    --rojo: #D50032;
+    --amarillo: #F2B807;
+    --altura_header: 155px;
+    --padding_left_right: 2rem;
+    --ancho_maximo: 1200px;
+}
+
+.parallax{
+    background-image: url("../assets/parallax1.png");
+    height: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url("../assets/parallax3.png");
+    height: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-image: url("../assets/parallax2.png");
+    height: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.esquinaA{
+    width: 100%;
+    height: 700px;
+    padding-left: 80px;
+    padding-top: 100px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-image: -webkit-linear-gradient(top, var(--grisOscuro) 70%, transparent );
+}
+
+.vacio {
+    width: 100%;
+    height: 600px;
+}
+
+.esquinaB{
+    width: 100%;
+    height: 700px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    background-image: linear-gradient(to top, var(--grisOscuro) 70%, transparent);
+}
+
+.cuadro h3{
+    width: 45%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--blanco);
+}
+
+.cuadro p{
+    width: 45%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--blanco);
+}
+
+.cuadro button {
+    padding: 10px 60px;
+    font-size: 20px;
+    color: var(--negro);
+    background: var(--blanco);
+    border: 2px solid var(--blanco);
+    border-radius: 30px;
+    transition: .5s ease-in;
+}
+
+.cuadro button:hover {
+    cursor: pointer;
+    color: var(--blanco);
+    background: var(--grisOscuro);
+    transition: .5s ease-in;
+}
+
+.esquinaB h3 {
+    text-align: end;
+}
+
+.esquinaB p {
+    text-align: end;
+}
+
+/* Escritorio grande */
+@media only screen and (max-width: 1199px){
+    .cuadro h3{
+        width: 60%;
+    }
+    
+    .cuadro p{
+        width: 60%;
+    }
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (max-width: 991px){
+    .cuadro h3{
+        width: 70%;
+        font-size: 32px;
+    }
+    
+    .cuadro p{
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .esquinaA{
+        padding-left: 30px;
+    }
+
+    .esquinaB{
+        padding-right: 30px;    
+    }
+}
+
+/* Tablets y phablets */
+@media only screen and (max-width: 767px){
+    
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .esquinaA{
+        padding-top: 60px;
+    }
+
+    .esquinaB{
+        padding-bottom: 60px;    
+    }
+
+    .cuadro h3{
+        font-size: 30px;
+    }
+    
+    .cuadro p{
+        font-size: 18px;
+    }
+}
